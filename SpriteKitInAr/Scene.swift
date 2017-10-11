@@ -130,7 +130,7 @@ class Scene: SKScene {
         //数一下有是多少炸弹
         for node in children{
             if let node = node as? SKLabelNode, node.name == "Bomb"{
-               node.text = "💥"
+               node.text = "💥"//control+command+空格可以坦诚emoj表情
                 
                node.name = "Menu"
                 
